@@ -18,7 +18,7 @@ class PosParams{
   static  String? debtors ;
   static  String? bank ;
   static Future<void> initialize() async {
-    await dotenv.load(fileName: "/.env");
+    /*await dotenv.load(fileName: "/.env");
     apiURL = dotenv.env['apiURL']??"";
     erpnextURL = dotenv.env['erpnextURL']??"";
     token = dotenv.env['token']??"";
@@ -29,6 +29,17 @@ class PosParams{
     sales = dotenv.env['sales']??"";
     main = dotenv.env['main']??"";
     debtors = dotenv.env['debtors']??"";
-    bank = dotenv.env['bank']??"";
+    bank = dotenv.env['bank']??"";*/
+    apiURL = "https://api.jumpark.klitchy.com";
+    erpnextURL = "https://erpnext-141144-0.cloudclusters.net";
+    token = "token 1e36fdb116a0d37:cf66f1ad25b58ba";
+    comapny = "Jumpark";
+    productFilter = '';
+    stores = "Stores - JP";
+    cash = "Cash - JP";
+    sales = "Sales - JP";
+    main = "Main - JP";
+    debtors = "Debtors - JP";
+    bank = "BTE - JP";
   }
 }
