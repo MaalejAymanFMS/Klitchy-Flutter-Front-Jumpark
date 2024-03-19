@@ -26,7 +26,7 @@ class _TopMenuDrawerState extends State<TopMenuDrawer> {
         Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text("GameOn", style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: 12)),
+            Text("Jumpark", style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: 12)),
             SizedBox(
               height: 5,
             ),
