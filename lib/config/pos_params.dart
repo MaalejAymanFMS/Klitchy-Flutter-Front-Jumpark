@@ -31,7 +31,7 @@ class PosParams{
     debtors = dotenv.env['debtors']??"";
     bank = dotenv.env['bank']??"";*/
     apiURL = "https://api.jumpark.klitchy.com";
-    erpnextURL = "https://erpnext-141144-0.cloudclusters.net";
+    erpnextURL = "https://jumpark.erp.klitchy.com/";
     token = "token 1e36fdb116a0d37:cf66f1ad25b58ba";
     comapny = "Jumpark";
     productFilter = '';
