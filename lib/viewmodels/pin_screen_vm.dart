@@ -28,7 +28,7 @@ class PinScreenVMState extends State<PinScreenVM> implements PinScreenInteractor
     final response = await http
          .post(Uri.parse("${PosParams.apiURL}/api/v1/authentication/login/pos/pin/")
         ,headers: {
-          "Access-Control-Allow-Origin":"*"
+          //"Access-Control-Allow-Origin":"*"
         },body: {
           "pin":pin
         });
